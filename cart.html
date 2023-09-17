@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"><img src="img/site-logo.png" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a id="lg-bag" class="active" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-square-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about">
+      <div class="top">
+        <h2>cart</h2>
+        <p>Let consectetur, adipisicing elit. lorem</p>
+      </div>
+    </section>
+
+    <section id="cart" class="section-1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>remove</td>
+            <td>image</td>
+            <td>product</td>
+            <td>price</td>
+            <td>quantity</td>
+            <td>subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fa-solid fa-xmark"></i></td>
+            <td><img src="img/pic1.png" alt="" /></td>
+            <td>Mens Blue Tshirt for Summer</td>
+            <td>$510.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$510.00</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-xmark"></i></td>
+            <td><img src="img/pic2.png" alt="" /></td>
+            <td>Mens Yello Tshirt for Summer</td>
+            <td>$210.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$210.00</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-xmark"></i></td>
+            <td><img src="img/pic3.png" alt="" /></td>
+            <td>Mens Red Tshirt for Summer</td>
+            <td>$230.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$230.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your coupon" />
+          <button>Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$335.00</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td>$335.00</td>
+          </tr>
+        </table>
+        <button>Proceed to check out</button>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-1 section-m1">
+      <div class="newstext">
+        <h3>Sign Up For Newsletters</h3>
+        <p>
+          Get E-mail updates about our letest and <span>special offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="email" placeholder="Your email address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-1">
+      <div class="col conatct">
+        <a class="logo" href="index.html"
+          ><img src="img/site-logo.png" alt=""
+        /></a>
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong>Lorem ipsum Lorem, ipsum dolor. dolor sit
+          amet.
+        </p>
+        <p><strong>Phone: </strong>+91 90 8963 2556</p>
+        <p><strong>Hours: </strong>8.00 - 15.00</p>
+        <div class="social">
+          <h4>Follow us:</h4>
+          <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-medium"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Delivery Information</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <ul>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">View Cart</a></li>
+          <li><a href="#">My Wishlist</a></li>
+          <li><a href="#">My Order</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google App</p>
+        <div class="row">
+          <img src="img/playstore.png" alt="" />
+          <img src="img/appstore.png" alt="" />
+        </div>
+        <p>Secure Payment Gateway</p>
+        <img src="img/payment.png " alt="" />
+      </div>
+    </footer>
+    <div class="copyright">copyright 2023 | website Name</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
